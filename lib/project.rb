@@ -9,8 +9,8 @@ class Project
     
   end 
   
-  def add_backer()
-    @backers << self 
+  def add_backer(backer)
+    @backers << backer 
   end 
   
   
